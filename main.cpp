@@ -1,5 +1,7 @@
 #include <vector>
 #include <iostream>
+#include <chrono>
+#include <random>
 
 template <typename T>
 std::vector<T> SMA(std::vector<T>& p, int window){
@@ -37,6 +39,8 @@ void test(std::vector<T>& data,std::vector<T>& correct_data, int window){
         std::cout << "failed" << std::endl;
     }
 }
+
+
 
 
 
