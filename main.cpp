@@ -38,6 +38,8 @@ void test(std::vector<T>& data,std::vector<T>& correct_data, int window){
     }
 }
 
+
+
 int main(){
     std::vector<float> data = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f};
     std::vector<float> correct_data = {2.0, 3.0, 4.0};
